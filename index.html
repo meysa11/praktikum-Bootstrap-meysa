@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Bootstrap</title>
+
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    
+    <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary px-3 shadow-sm" style="background-color :rgb(153, 223, 255) !important;">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold text-white" href="#">Portofolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">About Me</a>
+                </li>
+                  <li class="nav-item">
+                <a class="nav-link" href="#">My Skill</a>
+                </li>
+                  <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+        </nav>
+    
+        <!-- Hero section -->
+         <div id="home" class="bg-info bg-gradient text-white text-center py-5"> 
+            <div class="container">
+                <span class="badge text-bg-warning">Semester 3</span>
+                <h1>Halo, saya Meysa Cahya Noviana!</h1>
+                <p>Mahasiswa pendidikan sistem dan teknologi informasi</p>
+                <button type="button" class="btn btn-light">Lihat keahlian saya</button>
+            </div>
+         </div>
+
+         <!-- Skill section -->
+          <div id="skill" class="container py-5">
+            <h2 class="text-center mb-3"> Keahlian Saya</h2>
+            <div class="row g-4">
+                <!-- card 1 -->
+                <div class="col-md-4">
+                    <div class="card border-danger border-2 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">HTML dan CSS</h5>
+                            <p class="card-text">Dasar membangun struktur dan tampilan halaman web.</p>
+                        </div>
+                    </div>
+                </div>
+                 <!-- card 2 -->
+                <div class="col-md-4">
+                    <div class="card border-warning border-2 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Javascript</h5>
+                            <p class="card-text">Menambahkan interaksi dan logika pada halaman web.</p>
+                        </div>
+                    </div>
+                </div>
+                 <!-- card 3 -->
+                <div class="col-md-4">
+                    <div class="card border-success border-2 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Bootstrap</h5>
+                            <p class="card-text">Membangun tampilan responsif secara cepat dan rapih.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- alert -->
+                <div class="alert alert-info mt-4" role="alert">
+                Semuanya Aku Pelajari di Pemograman Dasar
+                </div>
+          </div>
+
+          <!-- Kontak -->
+           <div id="kontak" class="bg-light py-5">
+            <div class="container">
+                <h2 class="text-centermb-4">Kontak Saya</h2>
+                <div class="mb-3">
+                    <!-- formulir -->
+                    <form class="bg-White p-4 rounded shadow-sm mx-auto" style="max-width: 500px;">
+                        <!-- input nama -->
+                        <div class="mb-3">
+                        <label for="input-nama" class="form-label">Nama</label>
+                        <input type="text" class="form-control" id="input-nama" placeholder="Masukan nama anda">
+                        </div>
+                        <!-- input pesan -->
+                        <div class="mb-3">
+                        <label for="input-pesan" class="form-label">Pesan</label>
+                        <textarea class="form-control" id="input-pesan" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim pesan</button>
+                    </form>
+                </div>
+            </div>
+
+    <!-- Footer -->
+     <footer class="bg-dark text-white text-center py-4">
+        <small>&copy; 2026 - praktikum pemograman internet - pertemuan 6</small>
+     </footer>
+
+    <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
